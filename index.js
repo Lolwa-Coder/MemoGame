@@ -165,7 +165,6 @@ function switchOn(index) {
 }
 
 document.addEventListener('keyup', (event) => {
-    console.log("chuchu" );
     if (event.key == 'ArrowUp') {
         switchOn(1);
     }
